@@ -1,0 +1,25 @@
+# Python virtual environment
+AI-Contract-Assistant-Backend/venv/
+AI-Contract-Assistant-Backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# React dependencies and builds
+AI-Contract-Assistant-Frontend/node_modules/
+AI-Contract-Assistant-Frontend/dist/
+AI-Contract-Assistant-Frontend/build/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime uploads (keep actual private documents locally)
+AI-Contract-Assistant-Backend/uploads/*
+!AI-Contract-Assistant-Backend/uploads/.gitkeep
+
+# Logs
+*.log
