@@ -6,8 +6,6 @@ AI Contract Assistant is a document-centric AI application that enables users to
 
 The backend uses Retrieval-Augmented Generation (RAG) to retrieve relevant document passages before generating answers with a locally hosted Llama 3 model through Ollama. Source metadata, including page numbers and chunk references, helps users trace responses to the original document.
 
-> **Project status:** Academic mini project — B.E. Computer Engineering, International Institute of Information Technology, Pune, Academic Year 2026–2027.
-
 ## Features
 
 - **Document upload:** Upload PDF documents through the document management interface.
